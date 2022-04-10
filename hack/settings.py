@@ -141,3 +141,5 @@ STATICFILES_DIRS = [BASE_DIR / "static"]
 
 STATIC_ROOT = STATIC_ROOT = BASE_DIR / "staticfiles"  # new
 STATICFILES_STORAGE = "django.contrib.staticfiles.storage.StaticFilesStorage"  
+
+ALLOWED_HOSTS = ['medway144.herokuapp.com']
