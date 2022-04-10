@@ -1,0 +1,129 @@
+body{
+    width: 100%;
+}
+
+.navbar{
+    background-color: transparent;
+}
+
+.container-fluid {
+    margin-top: 20px ;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.navbar-brand{
+    background-color:  #0E185F;
+    border-radius: 40%;
+    padding: 23px;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Jost', sans-serif;
+    font-weight: bolder;
+    transition: all .2s ease-in-out;
+}
+
+.navbar-brand:hover{
+    color: white;
+
+    transform: scale(1.1);
+
+
+}
+
+.nav-item{
+    padding: 20px;
+    margin: 10px 15px 10px 15px;
+    font-size: 22px;
+    font-family: 'Lexend', sans-serif;
+    transition: all .2s ease-in-out;
+}
+
+
+.nav-item:hover{
+    transform: scale(1.1);
+
+
+}
+
+.nav-link{
+    color: #0E185F;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+  }
+
+.container1{
+    margin: 30px;
+
+}
+.container2{
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.d-block{
+    width: 60rem;
+    height: 40rem;
+}
+
+.card{
+    width: 50rem;
+    height: 30rem;
+}
+
+
+.card-body > h3{
+    color: #0E185F;    
+    font-size: xx-large;
+    font-family: 'Jost', sans-serif;
+    font-weight: bolder;
+}
+.card-body > p{    
+    font-size: 20px;
+    font-family: 'Lexend', sans-serif;
+    color: #139487;
+
+}
+
+.card-body > .alert{
+    font-family: 'Lexend', sans-serif;
+
+}
+
+.card-body > figure{
+    color: #0E185F;    
+    font-family: 'Lexend', sans-serif;
+    font-style: italic;
+}
+
+footer{
+    background-color: #0E185F;
+    color: white ;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+ 
+.user{
+    background-color: #0E185F;
+    font-family: 'Lexend', sans-serif;
+    font-weight: medium;
+}
+
+/* .btn{
+    transition: all .2s ease-in-out;
+    margin: 10px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bolder;
+
+
+} */
+

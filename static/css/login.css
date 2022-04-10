@@ -1,0 +1,101 @@
+
+.navbar{
+    background-color: transparent;
+}
+
+.container-fluid {
+    margin-top: 20px ;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.navbar-brand{
+    background-color:  #0E185F;
+    border-radius: 40%;
+    padding: 23px;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Jost', sans-serif;
+    font-weight: bolder;
+    transition: all .2s ease-in-out;
+}
+
+.navbar-brand:hover{
+    color: white;
+
+    transform: scale(1.1);
+
+
+}
+
+.nav-item{
+    padding: 20px;
+    margin: 10px 15px 10px 15px;
+    font-size: 22px;
+    font-family: 'Lexend', sans-serif;
+    transition: all .2s ease-in-out;
+}
+
+
+.nav-item:hover{
+    transform: scale(1.1);
+
+
+}
+
+.nav-link{
+    color: #0E185F;
+}   
+
+
+
+.container{
+    display: block;
+    align-items: center;
+    padding: 50px;
+    margin-top : 120px;
+    width: 40%;
+    height: 600px;
+    font-family: 'Lexend', sans-serif;
+    font-size: 20px;
+    color: #03045E;
+
+}
+
+legend{
+    font-size: 40px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bolder;
+    background-color: #0E185F;
+    color: white;
+    padding: 23px;
+    transition: 0.3s;
+
+}
+
+legend:hover{
+    color: #03045E;
+    background-color: transparent;
+}
+
+.btn{
+    background-color: #0E185F;
+    color: white;
+    transition: all .2s ease-in-out;
+
+
+}
+
+.btn:hover{
+    color: white;
+
+    transform: scale(1.1);
+}
+
+.mb-3{
+    align-items: center;
+
+
+}
